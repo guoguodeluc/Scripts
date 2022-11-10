@@ -1,0 +1,593 @@
+{
+  "sys": {
+    "classis": "",
+    "hostname": "sdnping1.novalocal",
+    "default_ipv4": "10.xxx.xx.xx",
+    "all_ipv4": "10.xxx.xx.xx 192.168.122.1 172.17.0.1 ",
+    "distribution": "centos",
+    "distribution_version": "7.9.2009",
+    "os_pretty_name": "CentOS Linux 7 (Core)",
+    "kernel": "4.20.0-1.el7.elrepo.x86_64",
+    "os_time": "2022-09-16 14:52:28",
+    "uptime": "62"
+  },
+  "cpu": {
+    "cpu_usedutilization": "0.12",
+    "cpu_loadavg1": "0.05",
+    "cpu_loadavg5": "0.01",
+    "cpu_loadavg15": "0.00"
+  },
+  "mem": {
+    "memtotal": "31.4124",
+    "memfree": "16.2479",
+    "memavailable": "29.6112",
+    "memcache": "13.7147",
+    "membuffer": "0.00578308",
+    "mem_usedutilization": "4.60",
+    "swaptotal": "0",
+    "swapfree": "0",
+    "swap_usedutilization": "0"
+  },
+  "disk": [
+    {
+      "mount": "/",
+      "mount_block": "/dev/sda1",
+      "mount_type": "xfs",
+      "size_total": "20G",
+      "size_use": "9.6G",
+      "size_available": "11G",
+      "size_usedutilization": "48",
+      "block_total": "20469M",
+      "block_use": "9761M",
+      "block_available": "10709M",
+      "block_usedutilization": "48",
+      "inode_total": "10M",
+      "inode_use": "136K",
+      "inode_available": "9.9M",
+      "inode_usedutilization": "2"
+    },
+    {
+      "mount": "/nfs",
+      "mount_block": "/dev/sde",
+      "mount_type": "xfs",
+      "size_total": "200G",
+      "size_use": "39G",
+      "size_available": "162G",
+      "size_usedutilization": "20",
+      "block_total": "204700M",
+      "block_use": "39064M",
+      "block_available": "165637M",
+      "block_usedutilization": "20",
+      "inode_total": "100M",
+      "inode_use": "196",
+      "inode_available": "100M",
+      "inode_usedutilization": "1"
+    },
+    {
+      "mount": "/export/secondary",
+      "mount_block": "/dev/sdd1",
+      "mount_type": "xfs",
+      "size_total": "500G",
+      "size_use": "472M",
+      "size_available": "500G",
+      "size_usedutilization": "1",
+      "block_total": "511749M",
+      "block_use": "472M",
+      "block_available": "511277M",
+      "block_usedutilization": "1",
+      "inode_total": "250M",
+      "inode_use": "10",
+      "inode_available": "250M",
+      "inode_usedutilization": "1"
+    },
+    {
+      "mount": "/export/primary",
+      "mount_block": "/dev/sdc1",
+      "mount_type": "xfs",
+      "size_total": "1.0T",
+      "size_use": "8.7G",
+      "size_available": "1015G",
+      "size_usedutilization": "1",
+      "block_total": "1048063M",
+      "block_use": "8905M",
+      "block_available": "1039158M",
+      "block_usedutilization": "1",
+      "inode_total": "512M",
+      "inode_use": "18",
+      "inode_available": "512M",
+      "inode_usedutilization": "1"
+    },
+    {
+      "mount": "/app",
+      "mount_block": "/dev/sdb",
+      "mount_type": "xfs",
+      "size_total": "600G",
+      "size_use": "110G",
+      "size_available": "491G",
+      "size_usedutilization": "19",
+      "block_total": "614350M",
+      "block_use": "111958M",
+      "block_available": "502393M",
+      "block_usedutilization": "19",
+      "inode_total": "300M",
+      "inode_use": "289",
+      "inode_available": "300M",
+      "inode_usedutilization": "1"
+    }
+  ],
+  "net": {
+    "tcp_stat": {
+      "LISTEN": 46,
+      "ESTABLISHED": 48
+    },
+    "established": [
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "51588",
+        "app_pid": "16821",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "36822",
+        "foreign_ip": "10.135.93.4",
+        "foreign_port": "22",
+        "app_pid": "23912",
+        "app_name": "ssh"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "58114",
+        "app_pid": "6657",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "43290",
+        "app_pid": "3321",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "58742",
+        "app_pid": "14914",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "44238",
+        "app_pid": "6098",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "42772",
+        "app_pid": "15349",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "34598",
+        "app_pid": "5572",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57094",
+        "app_pid": "30530",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "34284",
+        "app_pid": "20313",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57144",
+        "app_pid": "17384",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "51908",
+        "app_pid": "4145",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "51804",
+        "foreign_ip": "10.130.160.14",
+        "foreign_port": "514",
+        "app_pid": "6228",
+        "app_name": "rsyslogd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57610",
+        "app_pid": "26111",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "41382",
+        "app_pid": "10777",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "44278",
+        "app_pid": "6112",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "58216",
+        "app_pid": "22099",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "41500",
+        "app_pid": "1279",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "44714",
+        "app_pid": "21197",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "58752",
+        "app_pid": "14970",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "51958",
+        "app_pid": "24091",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "53908",
+        "app_pid": "19723",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "46988",
+        "app_pid": "2737",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57648",
+        "app_pid": "26133",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57140",
+        "app_pid": "17382",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "43284",
+        "app_pid": "3319",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "52704",
+        "app_pid": "23844",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "48808",
+        "app_pid": "8351",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57548",
+        "app_pid": "28102",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "42814",
+        "app_pid": "15361",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "46086",
+        "app_pid": "21542",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "44810",
+        "app_pid": "21292",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "45144",
+        "app_pid": "11602",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "53940",
+        "app_pid": "19725",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "35998",
+        "app_pid": "29496",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "40610",
+        "app_pid": "19734",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "51928",
+        "app_pid": "24089",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "59950",
+        "app_pid": "14678",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "59958",
+        "app_pid": "14680",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "44730",
+        "app_pid": "21199",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "36282",
+        "foreign_ip": "10.129.98.8",
+        "foreign_port": "5574",
+        "app_pid": "1019",
+        "app_name": "YDService"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57568",
+        "app_pid": "28134",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "41546",
+        "app_pid": "2103",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "51580",
+        "app_pid": "16799",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "57102",
+        "app_pid": "30541",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "58154",
+        "app_pid": "6659",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "44822",
+        "app_pid": "21294",
+        "app_name": "sshd"
+      },
+      {
+        "local_ip": "10.130.161.43",
+        "local_port": "22",
+        "foreign_ip": "10.142.30.199",
+        "foreign_port": "50160",
+        "app_pid": "8741",
+        "app_name": "sshd"
+      }
+    ]
+  },
+  "app": [
+    {
+      "app_pid": "4003",
+      "app_cpu": " 0.4",
+      "app_mem": " 1.4",
+      "app_stat": "Sl",
+      "app_comm": "qemu-kvm",
+      "app_dir": "/usr/libexec/qemu-kvm-namevm1-S-machinepc-i440fx-rhel7.0.0,accel=kvm,usb=off,dump-guest-core=off-cpuhost-m1024-realtimemlock=off-smp1,sockets=1,cores=1,threads=1-uuid08ea8613-52b4-4c7c-bdfc-27b8c1a20844-no-user-config-nodefaults-chardevsocket,id=charmonitor,path=/var/lib/libvirt/qemu/domain-12-vm1/monitor.sock,server,nowait-monchardev=charmonitor,id=monitor,mode=control-rtcbase=utc,driftfix=slew-globalkvm-pit.lost_tick_policy=delay-no-hpet-no-shutdown-globalPIIX4_PM.disable_s3=1-globalPIIX4_PM.disable_s4=1-bootstrict=on-deviceich9-usb-ehci1,id=usb,bus=pci.0,addr=0x4.0x7-deviceich9-usb-uhci1,masterbus=usb.0,firstport=0,bus=pci.0,multifunction=on,addr=0x4-deviceich9-usb-uhci2,masterbus=usb.0,firstport=2,bus=pci.0,addr=0x4.0x1-deviceich9-usb-uhci3,masterbus=usb.0,firstport=4,bus=pci.0,addr=0x4.0x2-drivefile=/var/lib/libvirt/images/bf-vm1.qcow2,format=qcow2,if=none,id=drive-virtio-disk0-devicevirtio-blk-pci,scsi=off,bus=pci.0,addr=0x5,drive=drive-virtio-disk0,id=virtio-disk0,bootindex=1-drivefile=/tmp/cloudinitiso/vm1/vm1.img,format=raw,if=none,id=drive-ide0-0-0,readonly=on-deviceide-cd,bus=ide.0,unit=0,drive=drive-ide0-0-0,id=ide0-0-0-netdevtap,fd=26,id=hostnet0-devicertl8139,netdev=hostnet0,id=net0,mac=52:54:00:bc:ae:9b,bus=pci.0,addr=0x3-chardevpty,id=charserial0-deviceisa-serial,chardev=charserial0,id=serial0-vnc0.0.0.0:0-vgacirrus-devicevirtio-balloon-pci,id=balloon0,bus=pci.0,addr=0x6-msgtimestamp=on",
+      "app_env": "LC_ALL=CPATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/binQEMU_AUDIO_DRV=none"
+    },
+    {
+      "app_pid": "1019",
+      "app_cpu": " 0.1",
+      "app_mem": " 0.2",
+      "app_stat": "Ssl",
+      "app_comm": "YDService",
+      "app_dir": "/usr/local/qcloud/YunJing/YDEyes/YDService",
+      "app_env": "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/binPWD=/LANG=en_US.UTF-8SHLVL=1_=/usr/local/qcloud/YunJing/YDEyes/YDService"
+    },
+    {
+      "app_pid": "7401",
+      "app_cpu": " 0.1",
+      "app_mem": " 0.1",
+      "app_stat": "Ssl",
+      "app_comm": "dockerd-current",
+      "app_dir": "/usr/bin/dockerd-current--add-runtimedocker-runc=/usr/libexec/docker/docker-runc-current--default-runtime=docker-runc--exec-optnative.cgroupdriver=systemd--userland-proxy-path=/usr/libexec/docker/docker-proxy-current--init-path=/usr/libexec/docker/docker-init-current--seccomp-profile=/etc/docker/seccomp.json--selinux-enabled--log-driver=journald--signature-verification=false--storage-driveroverlay2",
+      "app_env": "LANG=en_US.UTF-8PATH=/usr/libexec/docker:/usr/bin:/usr/sbinNOTIFY_SOCKET=/run/systemd/notifyGOTRACEBACK=crashDOCKER_HTTP_HOST_COMPAT=1OPTIONS=--selinux-enabled --log-driver=journald --signature-verification=falseDOCKER_CERT_PATH=/etc/dockerDOCKER_STORAGE_OPTIONS=--storage-driver overlay2 DOCKER_NETWORK_OPTIONS="
+    },
+    {
+      "app_pid": "6521",
+      "app_cpu": " 0.0",
+      "app_mem": " 0.1",
+      "app_stat": "Sl",
+      "app_comm": "Xvnc",
+      "app_dir": "/usr/bin/Xvnc:1-auth/home/appuser/.Xauthority-desktopsdnping1.novalocal:1 (appuser)-fpcatalogue:/etc/X11/fontpath.d-geometry1024x768-pn-rfbauth/home/appuser/.vnc/passwd-rfbport5901-rfbwait30000",
+      "app_env": "XDG_SESSION_ID=9193HOSTNAME=sdnping1.novalocalGUESTFISH_INIT=e[1;34mSHELL=/bin/bashTERM=xtermHISTSIZE=5000SSH_CLIENT=10.189.4.123 59231 22SSH_TTY=/dev/pts/18USER=appuserHISTFILESIZE=5000LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:KUBECONFIG=/etc/kubernetes/kubeconfigGUESTFISH_PS1=[e[1;32m]><fs>[e[0;31m] PATH=/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/home/appuser/.local/bin:/home/appuser/binMAIL=/var/spool/mail/appuserETCD_ENDPOINTS=http://10.130.17.11:2379_=/usr/bin/XvncPWD=/home/appuserLANG=en_US.UTF-8GUESTFISH_OUTPUT=e[0mHISTCONTROL=ignoredupsHOME=/home/appuserSHLVL=2KUBERNETES_MASTER=10.130.17.11:443LOGNAME=appuserSSH_CONNECTION=10.189.4.123 59231 10.130.161.43 22LESSOPEN=||/usr/bin/lesspipe.sh %sDISPLAY=localhost:12.0XDG_RUNTIME_DIR=/run/user/1001GUESTFISH_RESTORE=e[0mHISTTIMEFORMAT=%Y-%m-%d-%H%M%S 10.189.4.123 appuser"
+    },
+    {
+      "app_pid": "18729",
+      "app_cpu": " 0.0",
+      "app_mem": " 0.1",
+      "app_stat": "Sl",
+      "app_comm": "Xvnc",
+      "app_dir": "/bin/Xvnc:2-auth/root/.Xauthority-desktopsdnping1.novalocal:2 (root)-fpcatalogue:/etc/X11/fontpath.d-geometry1024x768-pn-rfbauth/root/.vnc/passwd-rfbport5902-rfbwait30000",
+      "app_env": "XDG_SESSION_ID=8341HOSTNAME=sdnping1.novalocalGUESTFISH_INIT=e[1;34mTERM=xtermSHELL=/bin/bashHISTSIZE=5000USER=rootHISTFILESIZE=5000LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:SUDO_USER=appuserSUDO_UID=1001KUBECONFIG=/etc/kubernetes/kubeconfigUSERNAME=rootGUESTFISH_PS1=[e[1;32m]><fs>[e[0;31m] MAIL=/var/spool/mail/rootPATH=/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/binETCD_ENDPOINTS=http://10.130.17.11:2379_=/bin/XvncPWD=/rootLANG=en_US.UTF-8GUESTFISH_OUTPUT=e[0mHISTCONTROL=ignoredupsHOME=/rootSUDO_COMMAND=/bin/bashSHLVL=2KUBERNETES_MASTER=10.130.17.11:443LOGNAME=rootLESSOPEN=||/usr/bin/lesspipe.sh %sDISPLAY=localhost:10.0SUDO_GID=1001GUESTFISH_RESTORE=e[0mHISTTIMEFORMAT=%Y-%m-%d-%H%M%S 10.189.4.123 root"
+    },
+    {
+      "app_pid": "18863",
+      "app_cpu": " 0.0",
+      "app_mem": " 0.1",
+      "app_stat": "Sl",
+      "app_comm": "Xvnc",
+      "app_dir": "/bin/Xvnc:4-auth/root/.Xauthority-desktopsdnping1.novalocal:4 (root)-fpcatalogue:/etc/X11/fontpath.d-geometry1024x768-pn-rfbauth/root/.vnc/passwd-rfbport5904-rfbwait30000",
+      "app_env": "XDG_SESSION_ID=8341HOSTNAME=sdnping1.novalocalGUESTFISH_INIT=e[1;34mTERM=xtermSHELL=/bin/bashHISTSIZE=5000USER=rootHISTFILESIZE=5000LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=01;36:*.au=01;36:*.flac=01;36:*.mid=01;36:*.midi=01;36:*.mka=01;36:*.mp3=01;36:*.mpc=01;36:*.ogg=01;36:*.ra=01;36:*.wav=01;36:*.axa=01;36:*.oga=01;36:*.spx=01;36:*.xspf=01;36:SUDO_USER=appuserSUDO_UID=1001KUBECONFIG=/etc/kubernetes/kubeconfigUSERNAME=rootGUESTFISH_PS1=[e[1;32m]><fs>[e[0;31m] MAIL=/var/spool/mail/rootPATH=/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/binETCD_ENDPOINTS=http://10.130.17.11:2379_=/bin/XvncPWD=/rootLANG=en_US.UTF-8GUESTFISH_OUTPUT=e[0mHISTCONTROL=ignoredupsHOME=/rootSUDO_COMMAND=/bin/bashSHLVL=2KUBERNETES_MASTER=10.130.17.11:443LOGNAME=rootLESSOPEN=||/usr/bin/lesspipe.sh %sDISPLAY=localhost:10.0SUDO_GID=1001GUESTFISH_RESTORE=e[0mHISTTIMEFORMAT=%Y-%m-%d-%H%M%S 10.189.4.123 root"
+    },
+    {
+      "app_pid": "1512",
+      "app_cpu": " 0.0",
+      "app_mem": " 0.1",
+      "app_stat": "Ssl",
+      "app_comm": "libvirtd",
+      "app_dir": "/usr/sbin/libvirtd",
+      "app_env": "LANG=en_US.UTF-8PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/binNOTIFY_SOCKET=/run/systemd/notify"
+    },
+    {
+      "app_pid": "7413",
+      "app_cpu": " 0.0",
+      "app_mem": " 0.0",
+      "app_stat": "Ssl",
+      "app_comm": "docker-containe",
+      "app_dir": "/usr/bin/docker-containerd-current-lunix:///var/run/docker/libcontainerd/docker-containerd.sock--metrics-interval=0--start-timeout2m--state-dir/var/run/docker/libcontainerd/containerd--shimdocker-containerd-shim--runtimedocker-runc--runtime-args--systemd-cgroup=true",
+      "app_env": "OPTIONS=--selinux-enabled --log-driver=journald --signature-verification=falseDOCKER_HTTP_HOST_COMPAT=1PATH=/usr/libexec/docker:/usr/bin:/usr/sbinPWD=/GOTRACEBACK=crashLANG=en_US.UTF-8DOCKER_NETWORK_OPTIONS=SHLVL=0DOCKER_CERT_PATH=/etc/dockerDOCKER_STORAGE_OPTIONS=--storage-driver overlay2"
+    },
+    {
+      "app_pid": "1338",
+      "app_cpu": " 0.0",
+      "app_mem": " 0.0",
+      "app_stat": "Ssl",
+      "app_comm": "tuned",
+      "app_dir": "/usr/bin/python2-Es/usr/sbin/tuned-l-P",
+      "app_env": "LANG=en_US.UTF-8PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin"
+    }
+  ]
+}
