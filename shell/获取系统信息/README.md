@@ -7,13 +7,13 @@ title:
 ## jq处理
 
 ```bash
-curl -sfL http://xxx/shell/get-sysinfo.sh |bash |jq . 
+curl -sfL https://raw.githubusercontent.com/guoguodeluc/Scripts/main/shell/%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF/get-sysinfo.sh |bash |jq . 
 ```
 
 ## python json.tool模块处理
 
 ```bash
-curl -sfL http://xxx/shell/get-sysinfo.sh |bash |python -m json.tool > /tmp/$(hostname)-sysinfo.json
+curl -sfL https://raw.githubusercontent.com/guoguodeluc/Scripts/main/shell/%E8%8E%B7%E5%8F%96%E7%B3%BB%E7%BB%9F%E4%BF%A1%E6%81%AF/get-sysinfo.sh |bash |python -m json.tool > /tmp/$(hostname)-sysinfo.json
 ```
 
 
