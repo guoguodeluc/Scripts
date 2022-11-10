@@ -1,6 +1,6 @@
 #!/bin/bash
 ## Author: lujianguo
-## Email：lujianguo@fin-shine.com
+## Email：lujianguo0128@126.com
 ## Date: 20220916
 ## Version: v1.1
 ## Description:  v1.0  获取系统信息并以json格式显示。
@@ -22,7 +22,7 @@ export PATH=$PATH:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/root/bin
 ############################################################
 function get_system() {
   # 获取系统信息
-  classis=$(hostnamectl |awk '/Chassis/{print $2}'2>/dev/null)
+  classis=$(hostnamectl |awk '/Chassis/{print $2}' 2>/dev/null)
   hostname=$(hostname 2>/dev/null)
   default_ipv4=$(ip -4 route get 114.114.114.114 2>/dev/null | head -1 | awk '{print $7}')
   all_ipv4=$(hostname -I 2>/dev/null)
